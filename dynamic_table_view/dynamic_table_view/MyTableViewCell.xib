@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="362" id="EO0-pU-46k" customClass="MyTableViewCell" customModule="dynamic_table_view" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="362"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EO0-pU-46k" id="zNh-WG-sm5">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="362"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="among_us" translatesAutoresizingMaskIntoConstraints="NO" id="dUE-rN-VOm">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="G2z-Bb-FDe"/>
+                            <constraint firstAttribute="height" constant="50" id="eyN-ma-v8V"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8bj-Yf-yaS">
+                        <rect key="frame" x="66" y="8" width="107" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개발하는 김학생" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OH0-FF-5Tp">
+                                <rect key="frame" x="0.0" y="0.0" width="107" height="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@3학년" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Kh-93-XJT">
+                                <rect key="frame" x="0.0" y="25" width="107" height="25"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5O-O3-fPi">
+                        <rect key="frame" x="8" y="66" width="381" height="253"/>
+                        <string key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CTj-qg-Gvt">
+                        <rect key="frame" x="8" y="327" width="60" height="20"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3RZ-m2-6oz">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="BDs-Hg-jt8"/>
+                                    <constraint firstAttribute="width" constant="20" id="nUr-7d-2Id"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="heart.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pkg-ap-7cv">
+                                <rect key="frame" x="20" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="C49-uo-h3J"/>
+                                    <constraint firstAttribute="height" constant="20" id="y4y-Br-B3t"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="hands.clap.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8WG-p4-Qvp">
+                                <rect key="frame" x="40" y="0.0" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="DrL-tG-sXe"/>
+                                    <constraint firstAttribute="height" constant="20" id="vA4-Ni-tJI"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="arrowshape.turn.up.right.fill" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <color key="tintColor" systemColor="systemGray2Color"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="A5O-O3-fPi" firstAttribute="top" secondItem="dUE-rN-VOm" secondAttribute="bottom" constant="8" id="6GK-Zo-Ksk"/>
+                    <constraint firstItem="CTj-qg-Gvt" firstAttribute="leading" secondItem="A5O-O3-fPi" secondAttribute="leading" id="9BS-2k-svR"/>
+                    <constraint firstItem="8bj-Yf-yaS" firstAttribute="height" secondItem="dUE-rN-VOm" secondAttribute="height" id="V8W-dt-viv"/>
+                    <constraint firstItem="dUE-rN-VOm" firstAttribute="leading" secondItem="zNh-WG-sm5" secondAttribute="leading" constant="8" id="beI-yi-Nwc"/>
+                    <constraint firstItem="dUE-rN-VOm" firstAttribute="top" secondItem="zNh-WG-sm5" secondAttribute="top" constant="8" id="iqa-pA-vjk"/>
+                    <constraint firstItem="CTj-qg-Gvt" firstAttribute="top" secondItem="A5O-O3-fPi" secondAttribute="bottom" constant="8" id="omK-qi-rua"/>
+                    <constraint firstItem="8bj-Yf-yaS" firstAttribute="leading" secondItem="dUE-rN-VOm" secondAttribute="trailing" constant="8" id="tAo-aB-WC6"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="A5O-O3-fPi" secondAttribute="trailing" constant="8" id="ufR-iY-fCg"/>
+                    <constraint firstItem="8bj-Yf-yaS" firstAttribute="top" secondItem="dUE-rN-VOm" secondAttribute="top" id="vXN-Jq-mGy"/>
+                    <constraint firstAttribute="bottom" secondItem="CTj-qg-Gvt" secondAttribute="bottom" constant="15" id="x9q-EZ-Lij"/>
+                    <constraint firstItem="A5O-O3-fPi" firstAttribute="leading" secondItem="dUE-rN-VOm" secondAttribute="leading" id="y0r-XG-Khg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="userContentLabel" destination="A5O-O3-fPi" id="lKr-dT-DNV"/>
+                <outlet property="userProfileImg" destination="dUE-rN-VOm" id="nAn-3a-7zk"/>
+            </connections>
+            <point key="canvasLocation" x="71.739130434782609" y="-54.241071428571423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="among_us" width="512" height="512"/>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
+        <image name="hands.clap.fill" catalog="system" width="128" height="113"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
